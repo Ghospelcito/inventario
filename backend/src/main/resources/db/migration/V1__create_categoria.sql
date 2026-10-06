@@ -1,5 +1,5 @@
-CREATE TABLE CATEGORIA (
+CREATE TABLE categoria (
     id BIGINT AUTO_INCREMENT PRIMARY KEY,
     nombre VARCHAR(100) NOT NULL UNIQUE CHECK (TRIM(nombre) <> ''),
-    descripcion VARCHAR(255) 
+    descripcion VARCHAR(255)
 );
